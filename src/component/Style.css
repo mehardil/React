@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 4px;
+    justify-content: space-around;
+    width: 50%;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.headerdiv1{
+    width:100%;
+    background-color: rgb(217, 209, 198);
+    padding-top: 10PX;
+    height: 10vh;
+ 
+
+}
+.headerdiv2{
+    width: 50%;
+    float: left;
+    background-color: rgb(224, 214, 214);
+}
+
+.header a {
+    text-decoration: none;
+    list-style: none;
+}
+.Product{
+    display: flex;
+    flex-direction: column;
+     background-color: black;
+     
+}
+.cardsdata{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100% !important;
+
+}
+.imag{
+    height: 100px !important;
+    width: 100px  !important;
+}
+
+.allcard{
+    height: 50vh !important;
+    width: 400px  !important;
+    background-color: beige;
+}
+.section{
+    background-color: aquamarine;
+    height:100vh;
+    border: solid white;
+    overflow:scroll;
+ }
+ .section{
+    background-color: aquamarine;
+    height:100vh;
+    border: solid white;
+    overflow:scroll;
+ }
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     height:100vh;
+    background-color: rgb(122, 98, 54);
+    color: aliceblue;
+    border: solid white;
+}
+.home{
+    display: flex;
+    width: 100%;
+}
+.homenav{
+    width: 30%;
+}
+.homesec{
+    width: 70%;
+}
